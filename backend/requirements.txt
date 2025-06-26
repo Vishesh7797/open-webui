@@ -4,7 +4,7 @@ pydantic==2.9.2
 python-multipart==0.0.9
 
 Flask==3.0.3
-Flask-Cors==5.0.0
+Flask-Cors==6.0.0
 
 python-socketio==5.11.3
 python-jose==3.3.0
@@ -87,3 +87,5 @@ docker~=7.1.0
 pytest~=8.3.2
 pytest-docker~=3.1.1
 pillow>=10.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
+protobuf>=4.25.8 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
